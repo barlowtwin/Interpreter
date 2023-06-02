@@ -10,8 +10,9 @@ typedef struct{
     uint8_t* code; 
 } Chunk; 
 
-
-
+// c has no constructors to initialize so we will write our own
+void initChunk(Chunk* chunk);
+void writeChunk(Chunk* chunk, uint8_t byte);
 
 
 
