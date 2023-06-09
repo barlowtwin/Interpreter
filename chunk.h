@@ -12,6 +12,7 @@ typedef struct{
 
 // c has no constructors to initialize so we will write our own
 void initChunk(Chunk* chunk);
+void freeChunk(Chunk* chunk);
 void writeChunk(Chunk* chunk, uint8_t byte);
 
 
